@@ -24,7 +24,7 @@ int isEmpty(struct Stack* S){
 }
 void push(struct Stack *S,int data){
 	if(isFull(S)){
-		cout<<"Sorry, Stack is full.\n";
+		cout<<"Sorry, Stack is full.\n"; 
 		return ;
 	}
 	S->array[++(S->top)]=data;
